@@ -248,6 +248,9 @@ Spring Bootのフォルダ構造と役割分担を考えた時、あなたはま
 
 次に調べる用語は[第7章](07_next-step-keywords.md)にまとめています。
 
+> **付録ハンズオン**：今回の章を実際に手を動かして確認したい場合は、[付録：Spring Bootハンズオン実践編（備品貸出管理アプリ）](08_appendix_equipment-lending-hands-on.md) に進んでください。H2付きの完全なサンプルコードで、Controller → Service → Repository の流れを追えます。
+
 ---
 
 ← [第4章に戻る](04_di-and-annotations.md)  |  → [補足：DTO/Entity/Mapper](05-1_dto-entity-and-mapper.md)  |  → [第6章へ進む](06_error-reading-and-qa.md)
+
