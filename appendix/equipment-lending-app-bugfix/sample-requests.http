@@ -1,0 +1,25 @@
+### 備品一覧
+GET http://localhost:8080/api/equipments
+
+### 備品登録
+POST http://localhost:8080/api/equipments
+Content-Type: application/json
+
+{
+  "name": "USB-C ドッキングステーション",
+  "category": "周辺機器"
+}
+
+### 備品貸出
+POST http://localhost:8080/api/equipments/1/lend
+Content-Type: application/json
+
+{
+  "userName": "山田太郎"
+}
+
+### 備品返却
+POST http://localhost:8080/api/equipments/1/return
+
+### 貸出履歴一覧
+GET http://localhost:8080/api/rental-records
