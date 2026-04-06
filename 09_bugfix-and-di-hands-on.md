@@ -184,6 +184,6 @@ Content-Type: application/json
 - SpringのDIコンテナは、「Springがインスタンス化した（管理している）クラス（Bean）」に対してのみ、`@Autowired` を解決してくれます。自分で `new` したオブジェクトにはDIは行われず、フィールドは `null` のままになります。
 - Controllerのコンストラクタで、`EquipmentCategoryAnalyzer` をDIで受け取るように書き換えましょう。
 
+---
 
-
-
+← [付録ハンズオンに戻る](08_appendix_equipment-lending-hands-on.md) | → [第10章へ進む](10_interface-deep-dive.md)
